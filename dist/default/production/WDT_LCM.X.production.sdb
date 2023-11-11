@@ -1,0 +1,488 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F1822 ]
+[d frameptr 6 ]
+"34 D:\Project\gMON\WDT\WDT_LCM.X\inc\main.h
+[e E1983 . `uc
+WDT 1
+LCM 2
+LCM_SETTIME 20
+LCM_REBOOT 164
+]
+"35
+[e E1989 . `uc
+NORMAL 0
+OPEN_ONCE 161
+OPEN_CONTINUE 162
+CLOSE 163
+REBOOT 164
+]
+"36
+[e E1996 . `uc
+CHECK_ALIVE 0
+WDT_DISABLE 18
+WDT_ENABLE 19
+]
+"34
+[e E1990 . `uc
+WDT 1
+LCM 2
+LCM_SETTIME 20
+LCM_REBOOT 164
+]
+"35
+[e E1996 . `uc
+NORMAL 0
+OPEN_ONCE 161
+OPEN_CONTINUE 162
+CLOSE 163
+REBOOT 164
+]
+"36
+[e E2003 . `uc
+CHECK_ALIVE 0
+WDT_DISABLE 18
+WDT_ENABLE 19
+]
+"34
+[e E1995 . `uc
+WDT 1
+LCM 2
+LCM_SETTIME 20
+LCM_REBOOT 164
+]
+"35
+[e E2001 . `uc
+NORMAL 0
+OPEN_ONCE 161
+OPEN_CONTINUE 162
+CLOSE 163
+REBOOT 164
+]
+"36
+[e E2008 . `uc
+CHECK_ALIVE 0
+WDT_DISABLE 18
+WDT_ENABLE 19
+]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"49 D:\Project\gMON\WDT\WDT_LCM.X\main.c
+[v _SELECTOR_LCM SELECTOR_LCM `(v  1 e 1 0 ]
+"55
+[v _SELECTOR_WDT SELECTOR_WDT `(v  1 e 1 0 ]
+"61
+[v _LOCK_CNTL_HIGH LOCK_CNTL_HIGH `(v  1 e 1 0 ]
+"65
+[v _LOCK_CNTL_LOW LOCK_CNTL_LOW `(v  1 e 1 0 ]
+"69
+[v _POWER_ON POWER_ON `(v  1 e 1 0 ]
+"73
+[v _POWER_OFF POWER_OFF `(v  1 e 1 0 ]
+"77
+[v _lock_cntl_state lock_cntl_state `(a  1 e 1 0 ]
+"88
+[v _lock_open lock_open `(v  1 e 1 0 ]
+"114
+[v _RESET_POWER RESET_POWER `(v  1 e 1 0 ]
+"129
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"146
+[v _main main `(v  1 e 1 0 ]
+"64 D:\Project\gMON\WDT\WDT_LCM.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"91
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"97
+[v _Response_ACK Response_ACK `(v  1 e 1 0 ]
+"106
+[v _EUSART_Receive_ISR EUSART_Receive_ISR `(v  1 e 1 0 ]
+"51 D:\Project\gMON\WDT\WDT_LCM.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"69 D:\Project\gMON\WDT\WDT_LCM.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"78
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"49 D:\Project\gMON\WDT\WDT_LCM.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"65 D:\Project\gMON\WDT\WDT_LCM.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"85
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"107
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+[s S146 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"374 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic12f1822.h
+[s S155 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S160 . 1 `S146 1 . 1 0 `S155 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES160  1 e 1 @11 ]
+[s S458 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"509
+[s S465 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 AN3 1 0 :1:4 
+]
+[s S471 . 1 `uc 1 CPS0 1 0 :1:0 
+`uc 1 CPS1 1 0 :1:1 
+`uc 1 CPS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CPS3 1 0 :1:4 
+]
+[s S477 . 1 `uc 1 C1INP 1 0 :1:0 
+`uc 1 C1IN0N 1 0 :1:1 
+`uc 1 C1OUT 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 C1IN1N 1 0 :1:4 
+]
+[s S483 . 1 `uc 1 DACOUT 1 0 :1:0 
+`uc 1 SRI 1 0 :1:1 
+`uc 1 SRQ 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 SRNQ 1 0 :1:5 
+]
+[s S489 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SCK 1 0 :1:1 
+`uc 1 T0CKI 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1OSO 1 0 :1:4 
+`uc 1 T1CKI 1 0 :1:5 
+]
+[s S496 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SCL 1 0 :1:1 
+`uc 1 SDA 1 0 :1:2 
+`uc 1 nMCLR 1 0 :1:3 
+`uc 1 CLKR 1 0 :1:4 
+`uc 1 T1OSI 1 0 :1:5 
+]
+[s S503 . 1 `uc 1 MDOUT 1 0 :1:0 
+`uc 1 MDMIN 1 0 :1:1 
+`uc 1 MDCIN1 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 MDCIN2 1 0 :1:4 
+]
+[s S509 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 SDI 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 OSC2 1 0 :1:4 
+`uc 1 OSC1 1 0 :1:5 
+]
+[s S515 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 FLT0 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CLKOUT 1 0 :1:4 
+`uc 1 CLKIN 1 0 :1:5 
+]
+[u S521 . 1 `S458 1 . 1 0 `S465 1 . 1 0 `S471 1 . 1 0 `S477 1 . 1 0 `S483 1 . 1 0 `S489 1 . 1 0 `S496 1 . 1 0 `S503 1 . 1 0 `S509 1 . 1 0 `S515 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES521  1 e 1 @12 ]
+[s S350 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"736
+[u S359 . 1 `S350 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES359  1 e 1 @17 ]
+"821
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"1242
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+[s S228 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1309
+[u S237 . 1 `S228 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES237  1 e 1 @145 ]
+"1394
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+[s S47 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1417
+[s S56 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S61 . 1 `S47 1 . 1 0 `S56 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES61  1 e 1 @149 ]
+"1587
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1645
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1717
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @154 ]
+"1981
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2490
+[v _APFCON APFCON `VEuc  1 e 1 @285 ]
+"2632
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2873
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"2893
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"2929
+[v _SPBRGL SPBRGL `VEuc  1 e 1 @411 ]
+"2979
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @412 ]
+"3012
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+[s S256 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3029
+[u S265 . 1 `S256 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES265  1 e 1 @413 ]
+"3074
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+"3136
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @415 ]
+"3188
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+[s S124 . 1 `uc 1 IOCAP0 1 0 :1:0 
+`uc 1 IOCAP1 1 0 :1:1 
+`uc 1 IOCAP2 1 0 :1:2 
+`uc 1 IOCAP3 1 0 :1:3 
+`uc 1 IOCAP4 1 0 :1:4 
+`uc 1 IOCAP5 1 0 :1:5 
+]
+"4353
+[s S131 . 1 `uc 1 IOCAP 1 0 :6:0 
+]
+[u S133 . 1 `S124 1 . 1 0 `S131 1 . 1 0 ]
+[v _IOCAPbits IOCAPbits `VES133  1 e 1 @913 ]
+[s S102 . 1 `uc 1 IOCAN0 1 0 :1:0 
+`uc 1 IOCAN1 1 0 :1:1 
+`uc 1 IOCAN2 1 0 :1:2 
+`uc 1 IOCAN3 1 0 :1:3 
+`uc 1 IOCAN4 1 0 :1:4 
+`uc 1 IOCAN5 1 0 :1:5 
+]
+"4411
+[s S109 . 1 `uc 1 IOCAN 1 0 :6:0 
+]
+[u S111 . 1 `S102 1 . 1 0 `S109 1 . 1 0 ]
+[v _IOCANbits IOCANbits `VES111  1 e 1 @914 ]
+[s S80 . 1 `uc 1 IOCAF0 1 0 :1:0 
+`uc 1 IOCAF1 1 0 :1:1 
+`uc 1 IOCAF2 1 0 :1:2 
+`uc 1 IOCAF3 1 0 :1:3 
+`uc 1 IOCAF4 1 0 :1:4 
+`uc 1 IOCAF5 1 0 :1:5 
+]
+"4469
+[s S87 . 1 `uc 1 IOCAF 1 0 :6:0 
+]
+[u S89 . 1 `S80 1 . 1 0 `S87 1 . 1 0 ]
+[v _IOCAFbits IOCAFbits `VES89  1 e 1 @915 ]
+"6098
+[v _TRMT TRMT `VEb  1 e 0 @3313 ]
+"34 D:\Project\gMON\WDT\WDT_LCM.X\inc\main.h
+[v _OPERATION_MODE OPERATION_MODE `E1983  1 e 1 0 ]
+"35
+[v _LCM_MODE LCM_MODE `E1989  1 e 1 0 ]
+"36
+[v _WDT_MODE WDT_MODE `E1996  1 e 1 0 ]
+"38
+[v _live_check_time live_check_time `uc  1 e 1 0 ]
+"39
+[v _lcm_duration_time lcm_duration_time `uc  1 e 1 0 ]
+"40
+[v _lock_open_time lock_open_time `uc  1 e 1 0 ]
+"42
+[v _command command `[3]uc  1 e 3 0 ]
+"43
+[v _tick_counter tick_counter `uc  1 e 1 0 ]
+"44
+[v _boot_time boot_time `uc  1 e 1 0 ]
+"59 D:\Project\gMON\WDT\WDT_LCM.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal timer0ReloadVal `VEuc  1 e 1 0 ]
+"146 D:\Project\gMON\WDT\WDT_LCM.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"296
+} 0
+"88
+[v _lock_open lock_open `(v  1 e 1 0 ]
+{
+[v lock_open@seconds seconds `uc  1 a 1 wreg ]
+"90
+[v lock_open@i i `uc  1 a 1 2 ]
+"91
+[v lock_open@iteration iteration `uc  1 a 1 1 ]
+"88
+[v lock_open@seconds seconds `uc  1 a 1 wreg ]
+"92
+[v lock_open@seconds seconds `uc  1 a 1 3 ]
+"105
+} 0
+"77
+[v _lock_cntl_state lock_cntl_state `(a  1 e 1 0 ]
+{
+"87
+} 0
+"69 D:\Project\gMON\WDT\WDT_LCM.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"76
+} 0
+"65 D:\Project\gMON\WDT\WDT_LCM.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"49 D:\Project\gMON\WDT\WDT_LCM.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"69
+} 0
+"78 D:\Project\gMON\WDT\WDT_LCM.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"88
+} 0
+"64 D:\Project\gMON\WDT\WDT_LCM.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"89
+} 0
+"114 D:\Project\gMON\WDT\WDT_LCM.X\main.c
+[v _RESET_POWER RESET_POWER `(v  1 e 1 0 ]
+{
+"127
+} 0
+"55
+[v _SELECTOR_WDT SELECTOR_WDT `(v  1 e 1 0 ]
+{
+"60
+} 0
+"49
+[v _SELECTOR_LCM SELECTOR_LCM `(v  1 e 1 0 ]
+{
+"54
+} 0
+"69
+[v _POWER_ON POWER_ON `(v  1 e 1 0 ]
+{
+"72
+} 0
+"73
+[v _POWER_OFF POWER_OFF `(v  1 e 1 0 ]
+{
+"76
+} 0
+"65
+[v _LOCK_CNTL_LOW LOCK_CNTL_LOW `(v  1 e 1 0 ]
+{
+"68
+} 0
+"61
+[v _LOCK_CNTL_HIGH LOCK_CNTL_HIGH `(v  1 e 1 0 ]
+{
+"64
+} 0
+"51 D:\Project\gMON\WDT\WDT_LCM.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"73
+} 0
+"85 D:\Project\gMON\WDT\WDT_LCM.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"87
+[v TMR0_ISR@CountCallBack CountCallBack `VEui  1 s 2 CountCallBack ]
+"105
+} 0
+"107
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+{
+"128
+} 0
+"129 D:\Project\gMON\WDT\WDT_LCM.X\main.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"141
+} 0
+"106 D:\Project\gMON\WDT\WDT_LCM.X\mcc_generated_files/eusart.c
+[v _EUSART_Receive_ISR EUSART_Receive_ISR `(v  1 e 1 0 ]
+{
+"118
+[v EUSART_Receive_ISR@buffer buffer `uc  1 a 1 7 ]
+"115
+[v EUSART_Receive_ISR@header_received header_received `a  1 s 1 header_received ]
+"116
+[v EUSART_Receive_ISR@data_received data_received `a  1 s 1 data_received ]
+"117
+[v EUSART_Receive_ISR@index index `uc  1 s 1 index ]
+"261
+} 0
+"97
+[v _Response_ACK Response_ACK `(v  1 e 1 0 ]
+{
+[v Response_ACK@ack ack `*.1uc  1 a 1 wreg ]
+"99
+[v Response_ACK@i i `i  1 a 2 3 ]
+"97
+[v Response_ACK@ack ack `*.1uc  1 a 1 wreg ]
+"99
+[v Response_ACK@ack ack `*.1uc  1 a 1 2 ]
+"104
+} 0
+"91
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+"93
+[v EUSART_Write@txData txData `uc  1 a 1 0 ]
+"95
+} 0
